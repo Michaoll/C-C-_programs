@@ -9,7 +9,7 @@ int main()
     uint16_t variable=1;   // 1 to checking
     uint8_t *pointer;
     pointer=&variable;
-    uint8_t *pointer_2 = pointer++;  //two pointers of for first 8 bits of uint16 variable and second for last 8 bits
+    uint8_t *pointer_2 = ++pointer;  //two pointers of for first 8 bits of uint16 variable and second for last 8 bits
 
     if(*pointer<*pointer_2)
     {
